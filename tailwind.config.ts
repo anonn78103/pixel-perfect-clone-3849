@@ -47,6 +47,14 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+        // FoodieBites custom colors
+        foodie: {
+          orange: "hsl(var(--foodie-orange))",
+          "orange-light": "hsl(var(--foodie-orange-light))",
+          "orange-dark": "hsl(var(--foodie-orange-dark))",
+          gray: "hsl(var(--foodie-gray))",
+          "gray-dark": "hsl(var(--foodie-gray-dark))",
+        },
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
           foreground: "hsl(var(--sidebar-foreground))",
