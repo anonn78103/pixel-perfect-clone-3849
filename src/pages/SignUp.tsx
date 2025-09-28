@@ -11,18 +11,18 @@ const SignUp = () => {
 
   return (
     <div className="min-h-screen bg-background flex items-center justify-center p-4">
-      <div className="max-w-6xl w-full grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
+      <div className="max-w-6xl w-full grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-8 items-center">
         
         {/* Left side - Form */}
         <div className="max-w-md mx-auto w-full">
-          <div className="mb-8">
-            <div className="flex items-center space-x-2 mb-6">
-              <span className="text-2xl">🍽️</span>
-              <span className="text-xl font-bold text-primary">FoodieBites</span>
+          <div className="mb-6 sm:mb-8">
+            <div className="flex items-center space-x-2 mb-4 sm:mb-6">
+              <span className="text-xl sm:text-2xl">🍽️</span>
+              <span className="text-lg sm:text-xl font-bold text-primary">FoodieBites</span>
             </div>
             
-            <h1 className="text-3xl font-bold text-gray-900 mb-2">Create an Account</h1>
-            <p className="text-gray-600">Sign up with your valid email and password</p>
+            <h1 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-2">Create an Account</h1>
+            <p className="text-gray-600 text-sm sm:text-base">Sign up with your valid email and password</p>
           </div>
 
           <form className="space-y-4">
@@ -116,7 +116,7 @@ const SignUp = () => {
                 src={signupSalad} 
                 alt="Fresh salad with vegetables"
                 className="w-full h-full object-cover"
-                style={{ minHeight: '600px' }}
+                style={{ minHeight: '500px', maxHeight: '700px' }}
               />
             </CardContent>
           </Card>
